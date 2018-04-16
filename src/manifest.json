@@ -1,0 +1,10 @@
+{
+  "name": "ChromeExForTinder",
+  "description": "AutoSubmitForTinder",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://tinder.com/*"],
+    "js": ["jquery-2.2.0.min.js", "ChEx.js", "content_script.js"]
+  }]
+}
